@@ -9,7 +9,7 @@
 
 count = input('과일의 갯수를 입력해주세요>>>')
 count = int(count)
-print ('입력받은 값의 데이터 타입은 ->' type(count) )
+print('입력받은 값의 데이터 타입은 ->', type(count) )
 box_count = int(input("박스당 몇개 닮을껀가요??>>"))
 print(type(box_count))
 print(count//box_count,"박스",count%box_count,"개")
